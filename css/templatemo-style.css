@@ -1177,6 +1177,18 @@ section.map #map {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* Customer Code */
 
 
@@ -1209,6 +1221,27 @@ section.map #map {
 
 
 
+
+
+
+/* fixing */
+
+.header.active {
+    background-color: #ffffff;
+}
+
+.navbar-inverse .navbar-toggle {
+    margin-top: 22px;
+    border-color: #F2745F;
+    background-color: #F2745F;
+}
+
+
+
+
+
+
+
 /* bootstrap */
 
 .logo img {
@@ -1226,12 +1259,39 @@ section.map #map {
     margin-bottom: 40px;
 }
 
+.container {
+    padding: 29px 0px 50px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Landing Img */
 
 .banner .container {
     background-color: rgba(0, 0, 0, 0.3);
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* how it work */
@@ -1249,4 +1309,142 @@ section.map #map {
     letter-spacing: 0.5px;
     text-transform: uppercase;
     color: #121212;
+}
+
+.how-it-work-img img {
+    width: calc(100% - 20px);
+    /* padding: 30px; */
+    margin: 0 20px 20px 0;
+    box-shadow: 20px 20px #F2745F;
+}
+
+.how-it-work-img h4 {
+    text-align: center;
+}
+
+.first-word {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* service detail */
+
+.service-details::after,
+.service-details::before {
+    content: " ";
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    background-color: #F2745F;
+}
+
+.service-details::after {
+    transform: translateY(-60px);
+    z-index: -10;
+}
+
+.service-details .col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.service-text {
+    width: 65%;
+    min-width: 190px;
+    margin: 100px 15% 100px 15%;
+    bottom: 0px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, .7);
+}
+
+.service-details .bg-right,
+.service-details .bg-left {
+    height: 100%;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 50%;
+    min-width: 580px;
+}
+
+.service-details .bg-right {
+    right: 0;
+}
+
+.service-details .bg-left {
+    left: 0;
+}
+
+.service-details .row {
+    position: relative;
+}
+
+.service-details .div-right {
+    float: right
+}
+
+@media (max-width: 992px) {
+    .service-details .bg-right,
+    .service-details .bg-left {
+        width: 100%;
+    }
+    .service-details .div-right {
+        float: left;
+    }
 }
