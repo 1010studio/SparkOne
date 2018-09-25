@@ -28,6 +28,7 @@ p {
     color: #666666;
     font-size: 18px;
     line-height: 24px;
+    letter-spacing: 0.6px;
 }
 
 .primary-button a {
@@ -1200,6 +1201,7 @@ section.map #map {
 
 
 
+
 /* Customer Code */
 
 
@@ -1242,6 +1244,7 @@ section.map #map {
 
 
 
+
 /* fixing */
 
 .header.active {
@@ -1253,6 +1256,7 @@ section.map #map {
     border-color: #00B12E;
     background-color: #00B12E;
 }
+
 
 
 
@@ -1287,8 +1291,8 @@ section.map #map {
 
 .container {
     padding: 29px 0px 50px 0px;
-
 }
+
 
 
 
@@ -1314,6 +1318,7 @@ section.map #map {
 .banner .container {
     /* background-color: rgba(0, 0, 0, 0.3); */
 }
+
 
 
 
@@ -1374,6 +1379,7 @@ section.map #map {
 .how-it-work .container {
     border-bottom: 1px solid #00B12E;
 }
+
 
 
 
@@ -1465,7 +1471,7 @@ section.map #map {
     margin: 100px 15% 100px 15%;
     bottom: 0px;
     padding: 10px;
-    background-color: rgba(255, 255, 255, .7);
+    background-color: rgba(255, 255, 255, .9);
 }
 
 .service-details .bg-right,
@@ -1497,6 +1503,7 @@ section.map #map {
 .service-details h2 {
     font-weight: 700;
     font-size: 44px;
+    letter-spacing: -0.3px;
 }
 
 @media (max-width: 992px) {
@@ -1508,6 +1515,7 @@ section.map #map {
         float: left;
     }
 }
+
 
 
 
