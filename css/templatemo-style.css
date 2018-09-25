@@ -1282,10 +1282,12 @@ section.map #map {
 .header .container {
     border-bottom: 1px solid;
     margin-bottom: 40px;
+    padding: 29px 0px 0px 0px;
 }
 
 .container {
     padding: 29px 0px 50px 0px;
+
 }
 
 
