@@ -1,8 +1,8 @@
-
 * {
     margin: 0;
     padding: 0;
-    font-family: Baskerville, Baskerville Old Face, Hoefler Text, Garamond, Times New Roman, serif;
+    /* font-family: Baskerville, Baskerville Old Face, Hoefler Text, Garamond, Times New Roman, serif; */
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 body {
@@ -158,8 +158,8 @@ bootstrap.min.css:5 .navbar-toggle {
 
 
 .banner {
-    padding: 180px 0px;
-    background-image: url(../img/hero-image.jpg);
+    padding: 350px 0px 10px 0;
+    background-image: url(../img/hero-image2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1195,6 +1195,9 @@ section.map #map {
 
 
 
+
+
+
 /* Customer Code */
 
 
@@ -1238,6 +1241,9 @@ section.map #map {
 
 
 
+
+
+
 /* fixing */
 
 .header.active {
@@ -1249,6 +1255,9 @@ section.map #map {
     border-color: #00B12E;
     background-color: #00B12E;
 }
+
+
+
 
 
 
@@ -1306,11 +1315,17 @@ section.map #map {
 
 
 
+
+
+
 /* Landing Img */
 
 .banner .container {
     /* background-color: rgba(0, 0, 0, 0.3); */
 }
+
+
+
 
 
 
@@ -1372,6 +1387,9 @@ section.map #map {
 .how-it-work .container {
     border-bottom: 1px solid #00B12E;
 }
+
+
+
 
 
 
@@ -1509,6 +1527,9 @@ section.map #map {
         float: left;
     }
 }
+
+
+
 
 
 
